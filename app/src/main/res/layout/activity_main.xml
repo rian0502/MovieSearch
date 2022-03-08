@@ -16,12 +16,10 @@
         android:background="@drawable/serch_view_bg"
         app:iconifiedByDefault="false"/>
 
-    <TextView
-        android:id="@+id/testing"
-        android:layout_width="370dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/container_movie"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hello">
-
-    </TextView>
+        android:layout_marginTop="30sp" />
 
 </LinearLayout>
